@@ -2,7 +2,7 @@
 #devuelva su media.
 def calcu_media(lista_numeros):
     """Función función que reciba una muestra de números en una lista y
-    devuelva su media.
+    devuelva su media
     Parámetros
     Nums: Es una lista de números
     Devuelve la media.

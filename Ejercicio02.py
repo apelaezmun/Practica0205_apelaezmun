@@ -7,8 +7,8 @@ def factorial(n):
     n: Es un entero positivo.
     Devuelve el factorial de n.
     """
-    resultado = 1
-    for i in range(1, n + 1):
-        resultado *= i
-    return resultado
-print(factorial(5))
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+print(factorial(8))
